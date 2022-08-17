@@ -1,0 +1,7 @@
+cd- Change directory
+ls- listing
+clear- clear terminal
+previous directory: cd ..
+git status- check status of file ,(commit ready or )
+
+

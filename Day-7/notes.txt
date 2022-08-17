@@ -1,0 +1,18 @@
+Async Function: 
+
+. The time talking function are called Asyncronous function.
+. Without blocking the functionality of other function.
+. Asyn function uses:- async-await and interval.
+
+API:
+
+1. Get - Get method return the values of the items with the specified keys. data from database to backend
+ 	Database > backend
+
+2. POST - Add new data to database
+
+3. PUT - Edits the data
+
+4. delete - delete the data
+
+5 patch - Edit specificed data from the database.

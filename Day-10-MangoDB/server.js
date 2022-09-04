@@ -14,13 +14,27 @@ app.get("/", (req, res) => {
   res.send("It is working");
 });
 
+
 app.post("/adduser", (request, response) => {
   //console.log(request.body);
   
   // destructureing of data
-  const { names, phone } = request.body;
-  console.log(names, phone)
-  response.send("please check ");
+  // const { names, phone } = request.body;
+  // console.log('Name:' +names)
+  // console.log('Phone no:' +phone)
+  // response.send("please check ");
+
+  const bodyname = request.body.names;
+  const bodyphone = request.body.phone;
+  console.log(bodyname,bodyphone);
+
+  const userDetails = new Usermodel({
+  names: bodyname,
+  phone: bodyphone, 
+  })
+
+  console.log(userDetails);
+  userDetails.save();
 });
 
 console.log(Usermodel);

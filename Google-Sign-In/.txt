@@ -1,0 +1,3 @@
+client id : 826345763803-p8h2997umsnupkqkrfukvngo63l3tcda.apps.googleusercontent.com
+
+yout client secret: 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
